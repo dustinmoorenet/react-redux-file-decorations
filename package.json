@@ -1,0 +1,15 @@
+{
+  "name": "react-redux-file-decorations",
+  "main": "./lib/react-redux-file-decorations",
+  "version": "1.0.0",
+  "description": "Opinionatedly rename tabs and show icons for React/Redux source",
+  "keywords": [
+  ],
+  "repository": "https://github.com/dustinmoorenet/react-redux-file-decorations",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

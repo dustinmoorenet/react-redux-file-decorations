@@ -1,0 +1,55 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+
+.tab {
+    [data-name]:before {
+        top: inherit;
+    }
+}
+
+.tab {
+    [data-name]:before {
+        margin-right: @component-icon-size * 0.2;
+        position: relative;
+    }
+}
+
+.tab,
+.tree-view:not(.nuclide-file-tree) {
+    [data-name]:before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-size: @component-icon-size;
+        width: @component-icon-size;
+        height: @component-icon-size;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .icon-file-directory:before {
+        top: @component-icon-size * 0.1;
+        position: relative;
+    }
+
+    // reducer files
+    [data-name='reducer.js']:before {
+        content: '\f0cc';
+    }
+
+    // action files
+    [data-name='actions.js']:before {
+        content: '\f030';
+    }
+
+    // component files
+    [data-name='component.js']:before {
+        content: '\f0d6';
+    }
+}
