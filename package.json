@@ -1,7 +1,7 @@
 {
   "name": "react-redux-file-decorations",
   "main": "./lib/react-redux-file-decorations",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Opinionatedly rename tabs and show icons for React/Redux source",
   "keywords": [
   ],

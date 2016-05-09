@@ -4,3 +4,6 @@
 
 ## 1.0.1
 * Added screenshot
+
+## 1.1.0
+* Added selector support
